@@ -1,0 +1,436 @@
+html,body
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+/********************* home *************************/
+#home
+{
+    height: 100%;
+}
+
+#home-cover
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("./img/bg-home.jpg");
+}
+#home-content-box
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#home-content-box-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#home-heading h3
+{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+/********************* buttons *************************/
+.btn-general
+{
+    border:2px solid white;
+    color: wheat;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+#btn1
+{
+    border: 2px solid white;
+    color:white;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 9px;
+}
+
+#btn1:hover
+{
+    background-color: #fff;
+    color: #41464b;
+}
+#btn2
+{
+    border:2px solid #34c6d3;
+    color: #41464b;
+}
+#btn2:hover
+{
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+
+
+
+/**************8 parallax effects class ***********************/
+.bg-parallax
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/************** animations ***********************/
+#home-cover
+{
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+#home-heading
+{
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+#home-cover
+{
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+#home-btn
+{
+    animation-delay: 1s;
+    animation-duration: .5s;
+}
+/************** content box***********************/
+.content-box
+{
+    padding: 60px 0px 60px 0px;
+}
+.content-title h3
+{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.content-title-underline
+{
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+/************** services ***********************/
+.service-item
+{
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.service-item-icon i
+{
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+.service-item:hover .service-item-icon i
+{
+    color: #fff;
+    background-color:#34c6d3;
+}
+.service-item-title h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.service-item-description p
+{
+    margin: 0;
+    padding-left: 85px;
+}
+
+
+/************** about ***********************/
+#about-bg-diagonal
+{
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(./img/bg-about.jpg);
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box
+{
+    float: left;
+    height: 700px;
+}
+#about-content-box-outer
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#about-content-box-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+#about .content-title h3
+{
+    text-align: left;
+}
+#about .content-title-underline
+{
+
+    margin: 0 0 30px 0;
+}
+#about-desc p 
+{
+    margin-bottom: 30px;
+    width: 250px;
+}
+/* *************** ******** */
+.img-wrapper img
+{
+    vertical-align: middle;
+    border-style: none;
+    width: 266px;
+    padding: 7px;
+    transition: transform .5s ease;
+}
+.img-wrapper 
+{
+    overflow: hidden;
+}
+.row.no-gutter[class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+}
+
+
+/*****************   team  ***************/
+.team-member
+{
+    margin: 0 15px;
+}
+.team-member-info
+{
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name
+{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation
+{
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+
+/***************** social icons ***************/
+.social-list
+{
+    padding-left: 0;
+}
+.social-list li
+{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+.social-icon i
+{
+    font-size: 17px;
+}
+.icon-gray i
+{
+    color: #64707b;
+}
+.social-icon i:hover
+{
+    color: #34c6d3;
+}
+
+
+/***************** testimomials ***************/
+
+#testimonial-cover
+{
+    background-image: url("./img/bg-testimonials.jpg");
+}
+
+#testimonials .content-box
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content-title-white
+{
+    color: wheat;
+}
+#customer-testimonials
+{
+    padding: 50px 0;
+}
+.testomonial img
+{
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 37px;
+}
+.testomonial blockquote
+{
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+    position: relative;
+}
+.testomonial blockquote::before
+{
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+.testomonial blockquote::after
+{
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+.testomonial blockquote::before,.testomonial blockquote::after
+{
+    font-size: 80px;
+    font-style: normal;
+    width:30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial-author p
+{
+    color: white;
+    font-size:18px ;
+}
+.testimonial-author p strong
+{
+    display: block;
+}
+
+/* .navbar-nav li
+{
+    margin-right: 17px;
+}
+.navbar-toggler
+{
+    background-color:wheat !important;
+    border: 1px solid wheat !important;
+    border-radius: 0;
+}
+.navbar-toggler .icon-bar
+{
+    background-color: wheat;
+} */
+.navbar
+{
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+.navbar-collapse ul
+{
+    float: right;;
+}
+.navbar-collapse ul li
+{
+    padding-right: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
